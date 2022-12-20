@@ -1,0 +1,13 @@
+body{
+    margin: var(--metric-box-spacing);
+}
+:is(h1,h2,h3,p,li,article){
+    max-inline-size: initial;
+    margin-block-start: var(--metric-box-spacing);
+}
+
+@media(min-width:50em){
+    article{
+        column-count: 2;
+    }
+}
