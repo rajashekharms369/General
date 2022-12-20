@@ -1,6 +1,6 @@
 body{
     margin: var(--metric-box-spacing);
-    background-color: antiquewhite;
+    background-color: rgb(234, 229, 229);
 }
 :is(h1,h2,h3,p,li,article){
     max-inline-size: initial;
